@@ -20,9 +20,9 @@ namespace FilmDB
             Console.WriteLine("1.War");
             Console.WriteLine("2.Romance");
             Console.WriteLine("3.Action");
-            Console.WriteLine("Enter Choice:");
+            Console.WriteLine("Enter the Choice:");
             int g = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Movie Name:");
+            Console.WriteLine("What movie do you want to store in the library?");
             String movie_name = Console.ReadLine();
             Console.WriteLine("Want to 1.Insert 2.Delete 3.Display");
             int op = Convert.ToInt32(Console.ReadLine());
